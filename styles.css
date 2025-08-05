@@ -29,6 +29,8 @@ input:hover {
     transform: scale(1.05);
 }
 
-
+li {
+    padding: 0.3rem;
+}
 
 
