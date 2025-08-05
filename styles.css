@@ -1,0 +1,34 @@
+* {
+  padding: 1rem;
+  margin: none;
+  font-family:'Courier New', Courier, monospace;
+}
+
+button {
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+}
+
+input:hover {
+    transform: scale(1.05);
+}
+
+
+
+
