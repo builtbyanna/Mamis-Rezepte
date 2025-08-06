@@ -1,16 +1,30 @@
-* {
-  padding: 1rem;
-  margin: none;
+body {
+  padding: 2rem;
+  margin: 0;
   font-family:'Courier New', Courier, monospace;
+  min-width: 400px;
 }
 
-button {
-    background-color: bisque;
+#save-btn {
+    background-color: #c9ada7;
     border: 1px solid black;
     border-radius: 2rem;
     padding: 0.5rem;
     transition-duration: 0.5s;
     cursor: pointer;
+    font-family: inherit;
+    width: 5.5rem;
+}
+
+#delete-btn {
+    background-color: #c9ada7;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: inherit;
+    width: 5.5rem;
 }
 
 button:hover {
@@ -33,4 +47,18 @@ li {
     padding: 0.3rem;
 }
 
+ul,
+li,
+a {
+    color: #c9ada7;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0.3rem;
+    transition-duration: 0.5s;
+}
 
+ul:hover,
+li:hover,
+a:hover {
+    color: #9a8c98
+}
