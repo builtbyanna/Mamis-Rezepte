@@ -16,6 +16,16 @@ body {
     width: 5.5rem;
 }
 
+#tab-btn {
+    background-color: #c9ada7;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: inherit;
+}
+
 #delete-btn {
     background-color: #c9ada7;
     border: 1px solid black;
