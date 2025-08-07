@@ -2,7 +2,7 @@ body {
   padding: 2rem;
   margin: 0;
   font-family:'Courier New', Courier, monospace;
-  min-width: 400px;
+  min-width: 400px; /* so it doesnt get too small when using it */
 }
 
 #save-btn {
@@ -51,10 +51,6 @@ input {
 
 input:hover {
     transform: scale(1.05);
-}
-
-li {
-    padding: 0.3rem;
 }
 
 ul,

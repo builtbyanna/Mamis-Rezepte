@@ -12,6 +12,7 @@ if (urlRecipes) {
   render(myRecipes); //draws them on the screen
 }
 
+//get current Tab from Chrome
 tabBtn.addEventListener("click", function(){
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
     myRecipes.push(tabs[0].url)
